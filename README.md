@@ -10,16 +10,22 @@ Easy UUID Node.js library
 
 ## install
 
-```bash
+```sh
 npm i @brtmvdl/uuid
 ```
 
 ## how to use
 
 ```js
+// index.js
+
 const { v4: uuid } = require('@brtmvdl/uuid')
 
 console.log(`uuid: ${uuid()}`)
+```
+
+```sh
+node index.js
 ```
 
 ## License
