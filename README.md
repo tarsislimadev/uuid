@@ -25,6 +25,8 @@ console.log(`uuid: ${uuid()}`)
 ```
 
 ```sh
+# bash 
+
 node index.js
 ```
 
