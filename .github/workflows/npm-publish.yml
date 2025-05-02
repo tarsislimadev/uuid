@@ -20,6 +20,10 @@ jobs:
           node-version: 18
           registry-url: https://registry.npmjs.org/
 
-      - run: npm publish --access public
+      - run: npm publish --access public --scope=@tarsislimadev
         env:
           NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
+
+# npm login --scope=@tarsislimadev --registry=https://registry.npmjs.org
+
+# npm publish --access public
