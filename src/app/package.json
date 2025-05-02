@@ -1,7 +1,21 @@
 {
-  "name": "@brtmvdl/uuid",
+  "name": "@tarsislimadev/uuid",
   "version": "0.0.1",
   "main": "index.js",
   "funding": "https://link.mercadopago.com.br/brtmvdl",
+  "description": "An UUID app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarsislimadev/uuid.git"
+  },
+  "keywords": [
+    "uuid"
+  ],
+  "author": "Tarsis Lima",
+  "bugs": {
+    "url": "https://github.com/tarsislimadev/uuid/issues"
+  },
+  "homepage": "https://github.com/tarsislimadev/uuid#readme",
+  "private": false,
   "license": "MIT"
 }
